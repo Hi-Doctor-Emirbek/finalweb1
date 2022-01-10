@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Final project  Web
+## Done by: Nurbekov Emirbek,Sozonbaev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description: 
+This project "HI Doctor":-A place where you can get any medical care, make an appointment with a doctor, leave a review and pay for the service in a non-cash way
 
-## Available Scripts
+The site provides everything necessary for the convenience of both ordinary people and staff:
 
-In the project directory, you can run:
+  1.HOME page
 
-### `npm start`
+  2.Sign up/login
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  3.Search for a doctor
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  4.Adding services to cart
 
-### `npm test`
+  5.Adding services to favorites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  6.Make an appointment with a doctor
 
-### `npm run build`
+  7.Pay for the services in a non-cash way
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  8.You can leave a comment on the doctor who underwent consultation or diagnosis
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  9.The time of the comment left will be displayed
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  10.Order form, Payment
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+"Врачи"-in this section you can get acquainted with the doctors and their profession
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+"Услуги"-in this section you will get acquainted with services such as:
+Analyzes, diagnostics, rehabilitation, treatment. And also compare prices
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+"Поиск"-in this section you can find a doctor by first or last name
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+"Главная"-you will be taken to the main page of the site
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+"Login/signup"-here you can register / log in both from the doctor's account and from the patient's account
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+"Корзина/Избранное"- Here you can add all the services of doctors you are interested in.

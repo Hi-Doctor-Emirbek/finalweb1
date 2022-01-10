@@ -98,6 +98,17 @@
       "specialty": "",
       "education": "",
       "id": 9
+    },
+    {
+      "username": "nurbekov.emirbek",
+      "password": "qweqwe123",
+      "email": "kadyrkulov.980@gmail.com",
+      "type": "pacient",
+      "age": "21",
+      "experience": "",
+      "specialty": "",
+      "education": "",
+      "id": 10
     }
   ],
   "services": [
@@ -198,6 +209,14 @@
       "createdAt": "2022-01-08T12:25:54.659Z",
       "createdAtMs": 1641644754659,
       "id": 3
+    },
+    {
+      "text": "dafdf\n",
+      "owner": "nurbekov.emirbek",
+      "doctorId": 8,
+      "createdAt": "2022-01-10T18:11:52.953Z",
+      "createdAtMs": 1641838312953,
+      "id": 4
     }
   ],
   "feedbacks": [
