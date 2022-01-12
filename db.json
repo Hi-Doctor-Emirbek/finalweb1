@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "username": "Пархоменко Татьяна Викторовна",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "doctor",
+      "age": "58",
+      "experience": "10 лет",
+      "specialty": "Терапевт",
+      "education": "высшее",
+      "id": 1
+    },
+    {
+      "username": "Кондратович Алеся Михайловна",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "doctor",
+      "age": "67",
+      "experience": "3 года",
+      "specialty": "Гинеколог",
+      "education": "Высшее",
+      "id": 2
+    },
+    {
+      "username": "Мергенбаева Айжан Энгельсовна",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "doctor",
+      "age": "20",
+      "experience": "9 лет",
+      "specialty": "\t Гастроэнтеролог ",
+      "education": "Высшее",
+      "id": 3
+    },
+    {
+      "username": "doctor",
+      "password": "qweqwe123",
+      "email": "qwe@qew.e",
+      "type": "doctor",
+      "age": "23",
+      "experience": "7 лет",
+      "specialty": "Окулист",
+      "education": "Высшее",
+      "id": 4
+    },
+    {
+      "username": "doctor1",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "doctor",
+      "age": "58",
+      "experience": "8 лет",
+      "specialty": "ЛОР",
+      "education": "Высшее",
+      "id": 5
+    },
+    {
+      "username": "doctor2",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "doctor",
+      "age": "58",
+      "experience": "8 лет",
+      "specialty": "ЛОР",
+      "education": "Высшее",
+      "id": 6
+    },
+    {
+      "username": "adelina",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "pacient",
+      "age": "23",
+      "experience": "",
+      "specialty": "",
+      "education": "",
+      "id": 7
+    },
+    {
+      "username": "emirbek.nurbekov",
+      "password": "qweqwe123",
+      "email": "emirbek.nurbekov@alatoo.edu.kg",
+      "type": "doctor",
+      "age": "21",
+      "experience": "12",
+      "specialty": "milfhunter",
+      "education": "high",
+      "id": 8
+    },
+    {
+      "username": "sanzhar",
+      "password": "qwertyss228",
+      "email": "kadyrkulov.980@gmail.com",
+      "type": "pacient",
+      "age": "15",
+      "experience": "",
+      "specialty": "",
+      "education": "",
+      "id": 9
+    },
+    {
+      "username": "nurbekov.emirbek",
+      "password": "qweqwe123",
+      "email": "kadyrkulov.980@gmail.com",
+      "type": "pacient",
+      "age": "21",
+      "experience": "",
+      "specialty": "",
+      "education": "",
+      "id": 10
+    }
+  ],
+  "services": [
+    {
+      "name": "УЗИ",
+      "category": "Лечение",
+      "price": "500",
+      "id": 5
+    },
+    {
+      "name": "КТ головы",
+      "category": "Диагностика",
+      "price": "2000",
+      "id": 6
+    },
+    {
+      "name": "Косоглазие",
+      "category": "Лечение",
+      "price": "10000",
+      "id": 7
+    },
+    {
+      "name": "COVID-19",
+      "category": "Лечение",
+      "price": "5000",
+      "id": 8
+    },
+    {
+      "name": "ОРВИ",
+      "category": "Лечение",
+      "price": "1500",
+      "id": 9
+    },
+    {
+      "name": "Глухота",
+      "category": "Диагностика",
+      "price": "5000",
+      "id": 11
+    },
+    {
+      "name": "Соскоб на острицы",
+      "category": "Анализы",
+      "price": "200",
+      "id": 13
+    },
+    {
+      "name": "Линейный иммунный анализ",
+      "category": "Анализы",
+      "price": "4200",
+      "id": 14
+    },
+    {
+      "name": "Фильтрационная функция почек",
+      "category": "Анализы",
+      "price": "500",
+      "id": 15
+    },
+    {
+      "name": "Анализ мочи",
+      "category": "Реабилитация",
+      "price": "999",
+      "id": 16
+    },
+    {
+      "name": "Анализ крови",
+      "category": "Диагностика",
+      "price": "999",
+      "id": 17
+    },
+    {
+      "name": "Анализ мочи",
+      "category": "Реабилитация",
+      "price": "100",
+      "id": 18
+    }
+  ],
+  "comments": [
+    {
+      "text": "супер врач",
+      "owner": "beka",
+      "doctorId": 6,
+      "createdAt": "2021-11-18T13:26:33.860Z",
+      "createdAtMs": 1637241993860,
+      "id": 1
+    },
+    {
+      "text": "да это аделина",
+      "owner": "adelina",
+      "doctorId": 6,
+      "createdAt": "2021-11-18T13:38:13.979Z",
+      "createdAtMs": 1637242693979,
+      "id": 2
+    },
+    {
+      "text": "самый лучший врач\n",
+      "owner": "sanzhar",
+      "doctorId": 8,
+      "createdAt": "2022-01-08T12:25:54.659Z",
+      "createdAtMs": 1641644754659,
+      "id": 3
+    },
+    {
+      "text": "dafdf\n",
+      "owner": "nurbekov.emirbek",
+      "doctorId": 8,
+      "createdAt": "2022-01-10T18:11:52.953Z",
+      "createdAtMs": 1641838312953,
+      "id": 4
+    },
+    {
+      "text": "хороший врач,рекомендую\n\n",
+      "owner": "nurbekov.emirbek",
+      "doctorId": 1,
+      "createdAt": "2022-01-12T18:28:17.029Z",
+      "createdAtMs": 1642012097029,
+      "id": 5
+    }
+  ],
+  "feedbacks": [
+    {
+      "owner": "beka",
+      "doctorId": 6,
+      "rate": 2,
+      "id": 1
+    },
+    {
+      "owner": "adelina",
+      "doctorId": 6,
+      "rate": 5,
+      "id": 2
+    }
+  ]
+}
