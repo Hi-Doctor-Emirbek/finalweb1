@@ -50,6 +50,9 @@ Analyzes, diagnostics, rehabilitation, treatment. And also compare prices
 
 ![Снимок экрана 2022-01-13 002831](https://user-images.githubusercontent.com/91878899/149204453-7de7e870-2fd3-4355-9bce-e065cef2dc11.png)
 
+![Снимок экрана 2022-01-13 010053](https://user-images.githubusercontent.com/91878899/149204950-b3fc635e-9a66-4fcc-a320-7a06ae06fefb.png)
+
+![Снимок экрана 2022-01-13 010152](https://user-images.githubusercontent.com/91878899/149204972-b893c07f-4a86-4c79-ae34-c82818c2ea17.png)
 
 
 
