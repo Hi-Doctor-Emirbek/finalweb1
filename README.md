@@ -45,6 +45,9 @@ Analyzes, diagnostics, rehabilitation, treatment. And also compare prices
 ## Video on YouTube:
 https://youtu.be/lyk3o10KhTk
 
+## Presentation:
+[final_web_presentation.pptx](https://github.com/Hi-Doctor-Emirbek/finalweb1/files/7857154/final_web_presentation.pptx)
+
 
 ## Screenshots:
 ![Снимок экрана 2022-01-13 002608](https://user-images.githubusercontent.com/91878899/149204423-8bb2dda3-751b-47cd-aaf7-0b880bf71d75.png)
