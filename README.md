@@ -42,6 +42,14 @@ Analyzes, diagnostics, rehabilitation, treatment. And also compare prices
 "Login/signup"-here you can register / log in both from the doctor's account and from the patient's account
 
 "Корзина/Избранное"- Here you can add all the services of doctors you are interested in.
+
+## Screenshots:
+![Снимок экрана 2022-01-13 002608](https://user-images.githubusercontent.com/91878899/149204423-8bb2dda3-751b-47cd-aaf7-0b880bf71d75.png)
+
 ![Снимок экрана 2022-01-13 002707](https://user-images.githubusercontent.com/91878899/149203944-6c4b116c-19f7-4609-a45b-2bb931c02488.png)
+
+![Снимок экрана 2022-01-13 002831](https://user-images.githubusercontent.com/91878899/149204453-7de7e870-2fd3-4355-9bce-e065cef2dc11.png)
+
+
 
 
