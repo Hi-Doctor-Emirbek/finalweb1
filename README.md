@@ -1,5 +1,5 @@
 # Final project  Web
-## Done by: Nurbekov Emirbek,Sozonbaev
+## Done by: Nurbekov Emirbek,Sozonbaev Aktilek
 
 ## Description: 
 http://localhost:3000/finalweb1
@@ -42,3 +42,4 @@ Analyzes, diagnostics, rehabilitation, treatment. And also compare prices
 "Login/signup"-here you can register / log in both from the doctor's account and from the patient's account
 
 "Корзина/Избранное"- Here you can add all the services of doctors you are interested in.
+
