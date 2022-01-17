@@ -2,7 +2,7 @@
 ## Done by: Nurbekov Emirbek,Sozonbaev Aktilek 
 
 ## Description: 
-http://localhost:3000/finalweb1
+
 This project "HI Doctor":-A place where you can get any medical care, make an appointment with a doctor, leave a review and pay for the service in a non-cash way
 
 The site provides everything necessary for the convenience of both ordinary people and staff:
