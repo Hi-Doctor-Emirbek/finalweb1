@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 import axios from "axios";
-import { APIusers } from "../config/const";
+import { API } from "../config/const";
 export const userContext = React.createContext();
 
 const INIT_STATE = {
@@ -36,12 +36,12 @@ const UserContextProvider = (props) => {
 
     const signUpUser = async (username, password, email, type, age, specialty, education, experience) => {
         try {
-            let res = await axios(APIusers);
+            let res = await axios(API + '/users');
             // console.log(type)
             let user = res.data.find((user) => user.username === username);
             if (user === undefined) {
                 try {
-                    let { data } = await axios.post(APIusers, {
+                    let { data } = await axios.post(API + '/users', {
                         username,
                         password,
                         email,
@@ -74,7 +74,7 @@ const UserContextProvider = (props) => {
     };
     const getAllDocs = async () => {
         try {
-            let { data } = await axios(APIusers)
+            let { data } = await axios(API + '/users')
             let result = data.filter(item => {
                 return item.type === 'doctor'
             })
@@ -90,7 +90,7 @@ const UserContextProvider = (props) => {
     const getUser = async (id) => {
         try {
             // console.log(user)
-            let response = await axios(APIusers + '/' + id);
+            let response = await axios(API + '/users' + '/' + id);
             dispatch({
                 type: "GET_USER",
                 payload: response.data,
@@ -101,7 +101,7 @@ const UserContextProvider = (props) => {
     }
     const getDoctor = async(id) =>{
         try{
-            let response = await axios(APIusers + '/' +id)
+            let response = await axios(API + '/users' + '/' +id)
             dispatch({
                 type: "GET_DOCTOR",
                 payload: response.data,
@@ -112,7 +112,7 @@ const UserContextProvider = (props) => {
     }
     const editDoctor = async (editedUser, user) => {
         try {
-            await axios.patch(APIusers + '/' + user.id, editedUser)
+            await axios.patch(API + '/users' + '/' + user.id, editedUser)
 
             getDoctor(user.id)
             clearState()
@@ -128,14 +128,14 @@ const UserContextProvider = (props) => {
     }
     const deleteUser = async (id) => {
         try {
-            await axios.delete(APIusers + '/' + id)
+            await axios.delete(API + '/users' + '/' + id)
         } catch (e) {
             console.log(e)
         }
     }
     const loginUser = async (username, password) => {
         try {
-            let res = await axios(APIusers);
+            let res = await axios(API + '/users');
             let user = res.data.find((user) => user.username === username);
             let bool = false;
             if (user) {

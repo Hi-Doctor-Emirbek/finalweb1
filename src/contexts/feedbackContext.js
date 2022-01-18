@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useReducer } from 'react';
-import { APIfeedbacks } from '../config/const';
+import { API } from '../config/const';
 
 export const feedbackContext = React.createContext()
 
@@ -33,7 +33,7 @@ const FeedbackContextProvider = (props) => {
                 doctorId,
                 rate,
             }
-            const response = await axios.post(APIfeedbacks, feedbacks)
+            const response = await axios.post(API + '/feedbacks', feedbacks)
             getFeedbacks(doctorId)
         } catch (e) {
             console.log(e)
@@ -44,7 +44,7 @@ const FeedbackContextProvider = (props) => {
 
     const getFeedbacks = async (doctorId) => {
         try {
-            const response = await axios(APIfeedbacks + '?doctorId' + doctorId)
+            const response = await axios(API + '/feedbacks' + '?doctorId' + doctorId)
             let action = {
                 type: "GET_FEEDBACKS",
                 payload: response.data
@@ -59,7 +59,7 @@ const FeedbackContextProvider = (props) => {
 
     const getFeedbacksToEdit = async (id) => {
         try {
-            const response = await axios(`${APIfeedbacks}/${id}`)
+            const response = await axios(`${API + '/feedbacks'}/${id}`)
             let action = {
                 type: "GET_FEEDBACKS_TO_EDIT",
                 payload: response.data
@@ -71,7 +71,7 @@ const FeedbackContextProvider = (props) => {
 
     const saveEditedFeedbacks = async (editedFeedbacks) => {
         try {
-            const response = await axios.patch(`${APIfeedbacks}/${editedFeedbacks.id}`, editedFeedbacks)
+            const response = await axios.patch(`${API + '/feedbacks'}/${editedFeedbacks.id}`, editedFeedbacks)
             getFeedbacks(editedFeedbacks.doctorId)
         } catch (e) {
             console.log(e)

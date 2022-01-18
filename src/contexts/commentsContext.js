@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useState } from "react"
-import { APIcomments } from "../config/const";
+import { API } from "../config/const";
 import axios from 'axios';
 
 export const commentsContext = React.createContext()
@@ -35,7 +35,7 @@ const CommentContextProvider = (props) => {
                 createdAt,
                 createdAtMs,
             }
-            const response = await axios.post(APIcomments, comment)
+            const response = await axios.post(API + '/comments', comment)
             getCommentsForRoom(doctorId)
         } catch (e) {
             console.log(e)
@@ -46,7 +46,7 @@ const CommentContextProvider = (props) => {
 
     const getCommentsForRoom = async (doctorId) => {
         try {
-            const response = await axios(APIcomments + '?doctorId=' + doctorId)
+            const response = await axios(API + '/comments' + '?doctorId=' + doctorId)
             let action = {
                 type: "GET_COMMENTS_FOR_ROOM",
                 payload: response.data
@@ -62,7 +62,7 @@ const CommentContextProvider = (props) => {
     const getCommentToEdit = async (id) => {
         try {
             const response = await axios(` 
-                ${APIcomments}/${id}`)
+                ${API + '/comments'}/${id}`)
             let action = {
                 type: "GET_COMMENTS_TO_EDIT",
                 payload: response.data,
@@ -77,7 +77,7 @@ const CommentContextProvider = (props) => {
         const saveEditedComment = async(editedComment, id) => {
             try {
 				
-                const response = await axios.patch(`${APIcomments}/${id}`, editedComment)
+                const response = await axios.patch(`${API + '/comments'}/${id}`, editedComment)
                 getCommentsForRoom(editedComment.doctorId)
                     // clearState()
             } catch (e) {
@@ -89,7 +89,7 @@ const CommentContextProvider = (props) => {
 
     const deleteComment = async (comment) => {
         try {
-            await axios.delete(`${APIcomments}/${comment.id}`)
+            await axios.delete(`${API + '/comments'}/${comment.id}`)
             getCommentsForRoom(comment.doctorId)
         } catch (e) {
             console.log(e);

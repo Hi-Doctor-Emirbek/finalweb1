@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useState } from "react"
-import { APIservices } from "../config/const";
+import { API } from "../config/const";
 import axios from 'axios';
 import { calcSubPrice, calcTotalPrice } from '../config/calcPrice';
 
@@ -47,7 +47,7 @@ const ServiceContextProvider = (props) => {
 
     const addServices = async (service) => {
         try {
-            const response = await axios.post(APIservices, service)
+            const response = await axios.post(API + '/services', service)
             getServices()
         } catch (e) {
             console.log(e)
@@ -59,7 +59,7 @@ const ServiceContextProvider = (props) => {
     const getServices = async () => {
         try {
             let filter = window.location.search
-            const response = await axios(`${APIservices}/${filter}`)
+            const response = await axios(`${API + '/services'}/${filter}`)
 
             let action = {
                 type: "GET_SERVICES",
@@ -76,7 +76,7 @@ const ServiceContextProvider = (props) => {
     const getServicesToEdit = async (id) => {
         try {
             const response = await axios(` 
-                ${APIservices}/${id}`)
+                ${API + '/services'}/${id}`)
             let action = {
                 type: "GET_SERVICES_TO_EDIT",
                 payload: response.data,
@@ -89,7 +89,7 @@ const ServiceContextProvider = (props) => {
 
     const saveEditedServices = async (editedServices) => {
         try {
-            const response = await axios.patch(`${APIservices}/${editedServices.id}`, editedServices)
+            const response = await axios.patch(`${API + '/services'}/${editedServices.id}`, editedServices)
             getServices()
             clearState()
         } catch (e) {
@@ -106,7 +106,7 @@ const ServiceContextProvider = (props) => {
     }
     const deleteService = async (id) => {
         try {
-            await axios.delete(`${APIservices}/${id}`)
+            await axios.delete(`${API + '/services'}/${id}`)
             getServices()
         } catch (e) {
             console.log(e);
