@@ -1,5 +1,11 @@
 export const API = 'https://hi-doctor-emirbek-aktilek.herokuapp.com/api'
 export const APIusers = 'https://hi-doctor-emirbek-aktilek.herokuapp.com/api/users'
-export const APIservices = 'https://hi-doctor-emirbek-aktilek.herokuapp.com/api/service'
-export const APIcomments = 'https://hi-doctor-emirbek-aktilek.herokuapp.com/api/service'
+export const APIservices = 'https://hi-doctor-emirbek-aktilek.herokuapp.com/api/services'
+export const APIcomments = 'https://hi-doctor-emirbek-aktilek.herokuapp.com/api/comments'
 export const APIfeedbacks = 'https://hi-doctor-emirbek-aktilek.herokuapp.com/api/feedbacks'
+
+// export const API = 'http://localhost:3000/'
+// export const APIusers = 'http://localhost:3000/users'
+// export const APIservices = 'http://localhost:3000/services'
+// export const APIcomments = 'http://localhost:3000/comments'
+// export const APIfeedbacks = 'http://localhost:3000/feedbacks'
